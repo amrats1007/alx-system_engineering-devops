@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -av --ignore-existing --update --include="*.html" --exclude="*" ./ ../
+source_dir=$(pwd); destination_dir=$(dirname "$source_dir"); rsync -av --ignore-existing --update --include=*.html --exclude=* "$source_dir/" "$destination_dir/"
