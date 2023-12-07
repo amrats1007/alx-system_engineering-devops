@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -ruv --update --parents *.html ../
+cp -nu *.html ../
