@@ -1,0 +1,2 @@
+#!/bin/bash
+printf "%s\n" "${WATER^^}${STIR^^}" | tr [:alpha:] s-za-rS-ZA-R | tr -d n | tr bestchol 01234567 | tr -d n | tr 01234567 bestchol
